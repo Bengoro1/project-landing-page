@@ -1,5 +1,11 @@
+
+
 body {
     margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
 }
 
 img {
@@ -9,18 +15,16 @@ img {
 
 .header {
     display: flex;
-    border: 2px red solid;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0 200px;
     padding-bottom: 150px;
 }
 
-.header-top {
-    border: 2px red solid;
+.header-top {  
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 80px;
+    justify-content: center;
+    padding-bottom: 150px;
+    gap: 570px;
 }
 
 .links {
@@ -29,117 +33,141 @@ img {
 }
 
 .logo {
-    border: 2px red solid;
-}
-
-.header-link {
-    border: 2px red solid;
-    color: gray;
-}
-
-.header-body {
-    border: 2px red solid;
-    display: flex;
     
 }
 
+.header-link {
+   margin-top: 20px;
+    color: #e5e7eb;
+}
+
+.header-body { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
 .header-container {
-    border: 2px red solid;
-    margin-right: auto;
+    margin-left: auto;
 }
 
 .header-title {
-    border: 2px red solid;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
     width: 300px;
 }    
 
 .header-text {
-    border: 2px red solid;
+    margin: 16px 0;
     font-size: 18px;
 }
 
 button {
-    border: 2px red solid;
-    padding: 2px 16px;
+    padding: 6px 32px;
     border-radius: 6px;
     color: white;
     background-color: rgb(54, 72, 208);
 }
 
-.header-image {
-    border: 2px red solid;
+.header-image {  
+    display: flex;
+    flex: 1;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.header-image-text {
+    display: flex;
+}
+
+.hover {
+
+}
+
+.body {
+  background-color: white; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-title {
+  font-size: 36px;
+  font-weight:800;
+  padding: 32px;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.info {
+    width: 200px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    width: 400px;
-    height: 200px;
-    background-color: gray;
     justify-content: center;
     align-items: center;
 }
 
-.header-image-text {
-    border: 2px red solid;
-}
-
-.hover {
-    border: 2px red solid;
-}
-
-.body {
-    border: 2px red solid;
-}
-
-.body-title {
-    border: 2px red solid;
-}
-
-.body-container {
-    border: 2px red solid;
-}
-
-.info {
-    border: 2px red solid;
-}
-
 .facts {
-    border: 2px red solid;
+  margin: 10px;
 }
 
 .body2 {
-    border: 2px red solid;
+  background-color: #e5e7eb;
+  display: flex;
+
+  justify-content: center;
 }
 
 .body2-container {
-    border: 2px red solid;
+    font-size: 32px;
+    font-weight: lighter;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    font-style: ;
 }
 
 .quoter {
-    border: 2px red solid;
+   font-size: 18px;
+   display: flex;
+   align-self: flex-end;
+   font-weight: bold;
 }
 
 .footer {
-    border: 2px red solid;
+ 
 }
 
 .footer-container {
-    border: 2px red solid;
+ 
 }
 
 .footer-left {
-    border: 2px red solid;
+
 }
 
 .footer-text {
-    border: 2px red solid;
+   
 }
 
 .footer-text2 {
-    border: 2px red solid;
+ 
 }
 
 .white-text {
     color: white;
+}
+
+.photo {
+    border: blue solid 3px;
+    border-radius: 8px;
 }
