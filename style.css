@@ -14,20 +14,22 @@ img {
     padding-bottom: 150px;
 }
 
+.logo {
+    width: 100px;
+}
+
+
 .header-top {  
     display: flex;
     justify-content: flex-start;
-    padding: 0 18vw 160px 18vw;
+    padding: 0 18vw 160px 16vw;
+    padding-top: 12px;
 }
 
 .links {
     display: flex;
     gap: 16px;
     margin-left: auto;
-}
-
-.logo {
-    
 }
 
 .header-link {
